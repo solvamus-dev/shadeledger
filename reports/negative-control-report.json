@@ -1,0 +1,1260 @@
+{
+  "schema_version": "0.1",
+  "subject_sha256": "25234999ff004bd703de46ee7171c1b731a7ee8a07cd917151f09f6bedf53ce9",
+  "input_components": [
+    {
+      "purl": "pkg:maven/org.apache.commons/commons-text@1.10.0",
+      "groupId": "org.apache.commons",
+      "artifactId": "commons-text",
+      "version": "1.10.0"
+    }
+  ],
+  "transformations": [
+    {
+      "type": "relocation",
+      "pattern": "org.apache.commons.text",
+      "shadedPattern": "com.acme.shaded.commons.text"
+    }
+  ],
+  "file_mappings": [
+    {
+      "original_path": "org/apache/commons/text/AlphabetConverter.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/AlphabetConverter.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "82694ba1890e53f86131ebcb329c97a8b560ccfa733546ed9ddebbae5bb33a47",
+      "predicted_sha256": "1560da1c69cd46ca8684838826065669eac4fd4b4a250e247e3d2d3627b55b4f",
+      "actual_sha256": "47d6d516268b56d36ad30407690b03d705e9d2f32e998262451ccaa9a72bc76d"
+    },
+    {
+      "original_path": "org/apache/commons/text/Builder.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/Builder.class",
+      "evidence_status": "transformed",
+      "original_sha256": "cd5a1326748da8b7ac4aca579049553f9e3652c93923326f3f25b37969f72090",
+      "predicted_sha256": "f5712a93a3244d95b029c920da97697678ace9e4e3df6bd70ebe6c45b292e5c7",
+      "actual_sha256": "f5712a93a3244d95b029c920da97697678ace9e4e3df6bd70ebe6c45b292e5c7"
+    },
+    {
+      "original_path": "org/apache/commons/text/CaseUtils.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/CaseUtils.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "bf0e5d21a76b651f28848506326c1c6b5f55140082b22e99b28179d807d4b9f1",
+      "predicted_sha256": "bc57d6848a03814e4afc3d79fdc3d706671f25867546f1de39f7773992413f56",
+      "actual_sha256": "18341a230779f1865a5eb4ec5124d175e35577633722784ff253fa44f795e939"
+    },
+    {
+      "original_path": "org/apache/commons/text/CharacterPredicate.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/CharacterPredicate.class",
+      "evidence_status": "transformed",
+      "original_sha256": "b493061f3fc6d6fdf17d35cb926baf082fd2448c1812694f9213550cbcd33995",
+      "predicted_sha256": "e98578d450e6a3f8a01eaa3fb7ba3e08150ac01e1960faf6768fd773b7d18cf9",
+      "actual_sha256": "e98578d450e6a3f8a01eaa3fb7ba3e08150ac01e1960faf6768fd773b7d18cf9"
+    },
+    {
+      "original_path": "org/apache/commons/text/CharacterPredicates$1.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/CharacterPredicates$1.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "96c15da75cb37c28e479f2466483ea4298ef48013a9f5966997bbed63c42c547",
+      "predicted_sha256": "010d2f936f071a908215f13333527ef3134df7455f0557d6fd13269cd503c4b0",
+      "actual_sha256": "73343cf039a72dd2cbfe6f2fa8d8ac0d43950f3c59e560226f3ed04dead95166"
+    },
+    {
+      "original_path": "org/apache/commons/text/CharacterPredicates$2.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/CharacterPredicates$2.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "64b01427dc95c9cdf3e7fd69c0c48ef288d1113d98dd54027117471c2fe6d07a",
+      "predicted_sha256": "fd43b8835114212639ba6dfd22b73d3c5844ce60ccc21925b8ec30de927a4a16",
+      "actual_sha256": "9e48f8390f6a9c3f976d538f4bd045c244bbf3d1d542298f622dc09be4e5d26e"
+    },
+    {
+      "original_path": "org/apache/commons/text/CharacterPredicates$3.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/CharacterPredicates$3.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "6bfeda0e8554dbba585a9cebd11057bffa3098cdefd270ccec3b97eb32498524",
+      "predicted_sha256": "8799fdfe72669542be4324f365e97cd8c7c103d892014ac4c62a4afedbee9a5c",
+      "actual_sha256": "4f8d09dbc793da8f039d3ff81232fa0879577e42222affc4b92f92ce16285fe6"
+    },
+    {
+      "original_path": "org/apache/commons/text/CharacterPredicates$4.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/CharacterPredicates$4.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "aa63f72b91b976038c1a27de5d2bdf15539ab99312fc64b18bd2838f07ef1046",
+      "predicted_sha256": "f4ebd42fa49db53d38e2d40514ec210c8a734b6cff3b06cc013f49a32f8e636d",
+      "actual_sha256": "15cc42c2cde8e29fac151d5d8e79692cc8ac86697671df16f3c1e7ee1caf4711"
+    },
+    {
+      "original_path": "org/apache/commons/text/CharacterPredicates$5.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/CharacterPredicates$5.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "deedc8da83e0951e6d5540f0e86dd84495fa92423278395759ac489c2d8bad29",
+      "predicted_sha256": "34bd865099f18f0bd0549b27cc8fb6eaceaa1842d8aefb84fd8bf52976582cad",
+      "actual_sha256": "6466221f9009665dd218e0c0a196aa9aa491fd5bcbc6324c5c838e005af58cf0"
+    },
+    {
+      "original_path": "org/apache/commons/text/CharacterPredicates$6.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/CharacterPredicates$6.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "0db2169678cc3ef4108e160e4662316efa00f7bae48061a40acc9d2555b501e1",
+      "predicted_sha256": "8b81da5f2e1d2e4e03c210f5667e05f140bf11c9f7919b0f4c3810fe062f6470",
+      "actual_sha256": "5526f385dee6f464a51684ddc952d45ce69c4d1fe5779284b1f5cb8ab92a48af"
+    },
+    {
+      "original_path": "org/apache/commons/text/CharacterPredicates$7.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/CharacterPredicates$7.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "2dad2b92fcefc7930f73891794f37868fc69a0a1ecd415bcd7c31a28cfe6c1d7",
+      "predicted_sha256": "6b9066acfc4854bac4e180b8a1d5c41e468a1dd02df5d3c155d8ae78d33b26ce",
+      "actual_sha256": "12aa7a0f108218206a84343801d8b54e56fc4f2fdc926465caa3bb3f4248f7bd"
+    },
+    {
+      "original_path": "org/apache/commons/text/CharacterPredicates.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/CharacterPredicates.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "c98c71a980ab219cdf542fabe362db5956d2467060e95dab6d981a125e023bbf",
+      "predicted_sha256": "3fec21581abd57238a3cc18155508ba8d64b5bbc3e211f84642f54c7fa6acae5",
+      "actual_sha256": "51c9f4edde19c32ed977b1f4c059becfff67c433685d12f9e58c33b6f4d2e43a"
+    },
+    {
+      "original_path": "org/apache/commons/text/CompositeFormat.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/CompositeFormat.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "428f04f41ea9e9eceb52c1dd2b0feadb0ed5026594cc9a4c0bc47568a0d80e2b",
+      "predicted_sha256": "538d942aede3d58ecde985fcbd3743fdea32fbffa442820fc87451d712512da2",
+      "actual_sha256": "5ad885d60c6d563ed04e0b8cd5fe0b67878558a76f86539e5d93e57bcd3dedc4"
+    },
+    {
+      "original_path": "org/apache/commons/text/ExtendedMessageFormat.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/ExtendedMessageFormat.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "c9f5f5236fff2afed22922ee54b5fb61e129b19d7bda7c01084e626ecd5d7378",
+      "predicted_sha256": "4c7c8d1e38649b02495e504a43375cf9f694242a119ec11a6370793f3c24461c",
+      "actual_sha256": "c004abfe627b753af7afd3efa64e98c5ce2edf1adfb027dedc3d9249e7c482d2"
+    },
+    {
+      "original_path": "org/apache/commons/text/FormatFactory.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/FormatFactory.class",
+      "evidence_status": "transformed",
+      "original_sha256": "6022d2764c2e54d30c6087785ebf0d1718b08e4e1d3c52f12cca5b54c9b4b572",
+      "predicted_sha256": "9602af70e4d9fde85c46ee0bb098326ab2ac19b28ba2691fe5cfc3111fd18107",
+      "actual_sha256": "9602af70e4d9fde85c46ee0bb098326ab2ac19b28ba2691fe5cfc3111fd18107"
+    },
+    {
+      "original_path": "org/apache/commons/text/FormattableUtils.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/FormattableUtils.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "de8deaa962fda57af0758992266809172d09d6d2af2f3919eca19d7c112f1a46",
+      "predicted_sha256": "08b086779c86e85b4338d56e647ec86a61c13b1b904b5c5dbcdcad00ce5bd4b8",
+      "actual_sha256": "838721d25cb610524ea6c72dfe67a332d8636834b564d0274ed59074836fe84c"
+    },
+    {
+      "original_path": "org/apache/commons/text/RandomStringGenerator$1.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/RandomStringGenerator$1.class",
+      "evidence_status": "transformed",
+      "original_sha256": "3a153353d42929690bfbe870e4db1db86313c0f28396f4650d58a827960489e9",
+      "predicted_sha256": "f975ddf614eee7f620f55ebff59ad7f014f0e5881c52d594b2b8f58a61e1d815",
+      "actual_sha256": "f975ddf614eee7f620f55ebff59ad7f014f0e5881c52d594b2b8f58a61e1d815"
+    },
+    {
+      "original_path": "org/apache/commons/text/RandomStringGenerator$Builder.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/RandomStringGenerator$Builder.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "ae2005f7d1571bcd2e6a2029bb4fa7f4f51f8e16ef837dced68060058189e4a1",
+      "predicted_sha256": "60c4610750ef53bbcf1d1b1760f1e29a06bd84a21fb4f19500384dc7e068c11b",
+      "actual_sha256": "079e0a8b9086e5d38b5322b75b135815b92565d9d8a9b6c146e4b411d495a0ce"
+    },
+    {
+      "original_path": "org/apache/commons/text/RandomStringGenerator.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/RandomStringGenerator.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "8cd0d4f5dad0febd183e5f8fcc0214c5d21a89ccc838f2566cc62af93c6ec92f",
+      "predicted_sha256": "5adfb306def5532a372854d5fa84c7f0e400ac0d67c07cab988f86f7e134da4b",
+      "actual_sha256": "663aa05813e09ae26494494e0b0a91ec30428a345860bdbc61ef342a19fa95b0"
+    },
+    {
+      "original_path": "org/apache/commons/text/StrBuilder$StrBuilderReader.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/StrBuilder$StrBuilderReader.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "9fe7031c98afe97fe800aa279fb9fd01756cefd956fa878305881c54e15eba27",
+      "predicted_sha256": "9bd543afd937db959f9beb3853992c1dde5262de13ca19200aff14e29d8bdd78",
+      "actual_sha256": "5ca3882b57b03ae238395526dc46130a5e76a3cfacb385dbd5a866b9fb222e3a"
+    },
+    {
+      "original_path": "org/apache/commons/text/StrBuilder$StrBuilderTokenizer.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/StrBuilder$StrBuilderTokenizer.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "ff421b5550a1a4a0d12cdbb3d47d0c48c9a23115973d59911cb75ebb275062f0",
+      "predicted_sha256": "d528796e7c88404355c67936f2d4dd6e15d66a3ff8fc9749257901f5e58f198d",
+      "actual_sha256": "9e313b683a98f830fee3f60f9314b1c8b8c1d2ccc02495619497d1811e769c14"
+    },
+    {
+      "original_path": "org/apache/commons/text/StrBuilder$StrBuilderWriter.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/StrBuilder$StrBuilderWriter.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "fc949f2bb818299cc7d00436777b05678605d000de773559a679f138e6846627",
+      "predicted_sha256": "f1b41b81fd2e5de4439cdcc35afc69b3e704db37ad27616d9020804e97ef1b7d",
+      "actual_sha256": "22838e075a08094a7816fe60c56e463ec2e0f3e8e12331fadd2c760927fdf2cf"
+    },
+    {
+      "original_path": "org/apache/commons/text/StrBuilder.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/StrBuilder.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "c91577fbc311e7096e36462366af94ecdb8e0da25ff6262486633682cc46c92c",
+      "predicted_sha256": "3f95ddf24351b14262e181a6631ced2deb69cf13163be1dfd6852098023c8405",
+      "actual_sha256": "26e6d3c3296ab1085d6f1dc7e555251bf123b6112f12f14d7e55dd4f8c623a79"
+    },
+    {
+      "original_path": "org/apache/commons/text/StrLookup$1.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/StrLookup$1.class",
+      "evidence_status": "transformed",
+      "original_sha256": "d8fc5c510174f6a4f1d2ecbd532232e31947674afded887281709ce43069eb3a",
+      "predicted_sha256": "6ec915acafec844176cbfe31e460e967f920cbb01b5eb576f881c97efa86c500",
+      "actual_sha256": "6ec915acafec844176cbfe31e460e967f920cbb01b5eb576f881c97efa86c500"
+    },
+    {
+      "original_path": "org/apache/commons/text/StrLookup$MapStrLookup.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/StrLookup$MapStrLookup.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "0cdc4342b457ddfc4bafc7b3e84224a7235f6bba11f3dee433913fd730f70950",
+      "predicted_sha256": "3c1f701218d98608531e685398570f4a825e8209ccc913802be985402e5f7b1e",
+      "actual_sha256": "c53d96836b5136dc98c3e24295edab7e77b82191f755c1a1e92d342800635002"
+    },
+    {
+      "original_path": "org/apache/commons/text/StrLookup$ResourceBundleLookup.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/StrLookup$ResourceBundleLookup.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "bab89d812c0237d3a471b4fa63f9ff6231a3b02b0103adb7a0129e83f0c99276",
+      "predicted_sha256": "0793f50fb977f59af4adb83c470b76716db00162c3a9a9d0d96604d246e0723e",
+      "actual_sha256": "c0d5db6d1f8660d67882fe2177302a670e433dec78b2797e21c95644320877fc"
+    },
+    {
+      "original_path": "org/apache/commons/text/StrLookup$SystemPropertiesStrLookup.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/StrLookup$SystemPropertiesStrLookup.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "a520e474595fc6fd96cb6056563fa0460314b71be57eebb39c22c60e280328ca",
+      "predicted_sha256": "166467a3b3589c2b20cbea699a4b366a8e4aca52ca25d3c298c4b6caa2508e84",
+      "actual_sha256": "75b0a0318c88e18bd10afed74a462fb7a178c81da4dfea1dcb6a013a1899a044"
+    },
+    {
+      "original_path": "org/apache/commons/text/StrLookup.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/StrLookup.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "6bbac0fcccc13ce88b40723e9e545cb5d44635d076f805e054f8205f7f1d6854",
+      "predicted_sha256": "399c6685b69b0c689c3437108f0ad24101bdc23459c35394bc1af43bd75819ee",
+      "actual_sha256": "12c671e6963420f40e855d9e531f9bc13846f31fa0c2b0dd2dfcfe50f090563f"
+    },
+    {
+      "original_path": "org/apache/commons/text/StrMatcher$CharMatcher.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/StrMatcher$CharMatcher.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "889ccc72f2456487275c1f0cbd38504c9b47e2f878252ea5cb83caf6bb3c0596",
+      "predicted_sha256": "6e241985715f8b947cc4e01c9dff7aaba762da16fbd17efa6518207d766f5928",
+      "actual_sha256": "3b4ecbda6bb89a0d2fce37ee70fb1e1d34270c35510d8831ba6ebbfeb7c483f9"
+    },
+    {
+      "original_path": "org/apache/commons/text/StrMatcher$CharSetMatcher.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/StrMatcher$CharSetMatcher.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "7baafe8625f56ff47569cc33a12d9f1d5083493b12f490ca6f1a3aaf49a1fb0f",
+      "predicted_sha256": "a10eaa0e355e96c6345ffcfddb5d518a71132104739bc11c63c7da06528b276c",
+      "actual_sha256": "9d85c3a000ac386ce0c6dbc341852daa33a84fdc8cfb43a162772429c20f3973"
+    },
+    {
+      "original_path": "org/apache/commons/text/StrMatcher$NoMatcher.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/StrMatcher$NoMatcher.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "c68e7a1fff1e68c6d1bcb7316541f5cce517c23483735eac948351663c607abe",
+      "predicted_sha256": "9367a025dbe246ab1edbe3db726dc41e73966a2aefb30a3d272d7f0540786ffe",
+      "actual_sha256": "9682c9831298e7a476c216b2e126a5e78f597a9bfcb038381173ab7e2382f88f"
+    },
+    {
+      "original_path": "org/apache/commons/text/StrMatcher$StringMatcher.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/StrMatcher$StringMatcher.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "bd1ff1f180d796b9ebc78924e817dd37cc0694c8619026237d2beeaeabf06bb5",
+      "predicted_sha256": "7579429f8aad1db3853c71ab115c534aa035260af08dddc95b8b56da0a17bb4e",
+      "actual_sha256": "760f5ce875b9ef0bc21d474decbb4819c842f8755bd357aa3d19e96e8e07395e"
+    },
+    {
+      "original_path": "org/apache/commons/text/StrMatcher$TrimMatcher.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/StrMatcher$TrimMatcher.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "7f395e685cabc952cca37f71818f63f04190ac586d498df9c8998ae1b5f178da",
+      "predicted_sha256": "cf3bc0b357c73cb4de2112777c28d9e537160066ba65812c442ee75bd37f06e2",
+      "actual_sha256": "fedc0c5d2ac413bf3bec3f151d42987ce0879b11c359211a9bd97f626dce2917"
+    },
+    {
+      "original_path": "org/apache/commons/text/StrMatcher.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/StrMatcher.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "bd26b89089ee6fc1b929b77507b17c2f7c203532aa995d34ac940c53d160dda7",
+      "predicted_sha256": "691d4c60f30775f00bb92f3b06828bb2c5104c0c5d36b719e1f439bdb769d824",
+      "actual_sha256": "a23a6e3612bc05ab77e85555dd07ce954b473d2dc1759c73f5da6965edfccfa6"
+    },
+    {
+      "original_path": "org/apache/commons/text/StrSubstitutor.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/StrSubstitutor.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "f9795d77b47e3db0121743d6e51fb1bf9a4b6638f8c319dd62dec640f92ce872",
+      "predicted_sha256": "f5cfed53fad200c67d12df783bbedde43611f6e6ce79a15772fdd8f038edb625",
+      "actual_sha256": "2c9b855cd4ee3aa6515db87d51a73f2dd35bd132f2eeae9565da50a0241187e5"
+    },
+    {
+      "original_path": "org/apache/commons/text/StrTokenizer.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/StrTokenizer.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "4346da37b6adcbecb0bf98bc406e3df8c57ee54a6abd65ca42a8670df6c4bf42",
+      "predicted_sha256": "46f6b5ac3501a12acad771851846de01d80a6619328dd3c9cbc8b246f077df01",
+      "actual_sha256": "5702543d2159cbac266aec6cb882d742f3c4a8efe7761c78f3ed25928c32de9e"
+    },
+    {
+      "original_path": "org/apache/commons/text/StringEscapeUtils$1.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/StringEscapeUtils$1.class",
+      "evidence_status": "transformed",
+      "original_sha256": "a38dc43f042e82b7395c6f873471510161a8acbca6a304cb0e5ff93382fd3ce1",
+      "predicted_sha256": "46d8b2931ab70a76e970e5c4dfba65287111db3e5ef97864bdfe7644b95f4146",
+      "actual_sha256": "46d8b2931ab70a76e970e5c4dfba65287111db3e5ef97864bdfe7644b95f4146"
+    },
+    {
+      "original_path": "org/apache/commons/text/StringEscapeUtils$Builder.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/StringEscapeUtils$Builder.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "4be9d7ee9dd2cbd7b554a03c0eaf8002805365d69faf22bd8c82fb08e3a5664d",
+      "predicted_sha256": "ea2f80b65a44fe27afcc1482bf53d71dcdf42e995db12fbb403e6a3429318d14",
+      "actual_sha256": "38149b176b178f931c85b95a0fd318083908582427526a83e4b9490f92645623"
+    },
+    {
+      "original_path": "org/apache/commons/text/StringEscapeUtils$XsiUnescaper.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/StringEscapeUtils$XsiUnescaper.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "700e8fe691aaaca25cdc1de2ac981a5d60c15382bb54505ba2557df6c13f8e7e",
+      "predicted_sha256": "899250b28d3370effdad32e3d3769ab5ccbacaf55abbbbf6c93f485c8cd195c5",
+      "actual_sha256": "bc01fa98ce1db1f3d5d3c20a6c571facf9f5a1ca86fa15cc9f622e7a533f88a5"
+    },
+    {
+      "original_path": "org/apache/commons/text/StringEscapeUtils.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/StringEscapeUtils.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "e26d223dbe5f4068d9acca48ea4905cd8cea5959bfbd1d7202bcd169b1c16a6f",
+      "predicted_sha256": "2f178e5962034f3f494e7ab7514b2f1756b1613e28c86e165d7127f98e0f2554",
+      "actual_sha256": "1b4f20c1d5f9e0d5559877aca5a9edd64738ee76f97c882ca20228c7c68b0445"
+    },
+    {
+      "original_path": "org/apache/commons/text/StringSubstitutor$1.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/StringSubstitutor$1.class",
+      "evidence_status": "transformed",
+      "original_sha256": "e6839af182e620415559aac7710ef6e7c04740274bf1b0fec4338e41b0a5d595",
+      "predicted_sha256": "86bdd1955e9e110f7f0c1564e05731682fbeb927c4fd651c12bff46d2113045a",
+      "actual_sha256": "86bdd1955e9e110f7f0c1564e05731682fbeb927c4fd651c12bff46d2113045a"
+    },
+    {
+      "original_path": "org/apache/commons/text/StringSubstitutor$Result.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/StringSubstitutor$Result.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "021dcf65d350927f6b531ff128e2424247baa48a15191b829c1ca5acce8e1b72",
+      "predicted_sha256": "2546a314a6b19a4786dde1c56eb85bca0e7da4c7e3b6697ae2f731dca69d272a",
+      "actual_sha256": "4240ff9903d7ff6621e592af64d475ef71b4c8e115065be5b4b804ec7fdd573f"
+    },
+    {
+      "original_path": "org/apache/commons/text/StringSubstitutor.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/StringSubstitutor.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "3db2591109d6b4c8d084ee1838eeba132d82c1fcc551a66dcf80b38164a8829d",
+      "predicted_sha256": "4389f424ee23ee8fc5ca6fddbb9d9daca76cdea2341f463b8810183d3b3a88d0",
+      "actual_sha256": "5460b6d01aebfff4d00e93e7b4d47caa09b3220d9835a3d4e2a44c2ab90a0ae2"
+    },
+    {
+      "original_path": "org/apache/commons/text/StringTokenizer.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/StringTokenizer.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "24c4a4c422c7e8908098628c936bd2927c519bd6d2ef966b0023085d059f415e",
+      "predicted_sha256": "0df2ac52fe6cf489a7cc0d02055dff1a81fed05cfa8d510a9d9569c4492aaa6d",
+      "actual_sha256": "5f4af60beba133b4247e88d1493776474d4bf0c06af612077dfc24c5e89f3379"
+    },
+    {
+      "original_path": "org/apache/commons/text/TextRandomProvider.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/TextRandomProvider.class",
+      "evidence_status": "transformed",
+      "original_sha256": "64e3204fb58de7140fcc3e5a89d85df678c3defc22bd177b400607c58be02fd8",
+      "predicted_sha256": "4858c1cf69e6b91f47f3c10f2139acfe7a71eb7654472baee8d70f34aafc7ef3",
+      "actual_sha256": "4858c1cf69e6b91f47f3c10f2139acfe7a71eb7654472baee8d70f34aafc7ef3"
+    },
+    {
+      "original_path": "org/apache/commons/text/TextStringBuilder$TextStringBuilderReader.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/TextStringBuilder$TextStringBuilderReader.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "446ff037e218cf3735949e1a7c45ceb35f175999992359d71037f9c41df7ac6f",
+      "predicted_sha256": "b5a2e07dc9b0c848f370c2140e67a4973825b498f23ab9b1421c4fb8d6ab46ea",
+      "actual_sha256": "94bbe61a7462ea3f69c80a86c93129fe8b2cbb13a1b81dccff145b31074503dd"
+    },
+    {
+      "original_path": "org/apache/commons/text/TextStringBuilder$TextStringBuilderTokenizer.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/TextStringBuilder$TextStringBuilderTokenizer.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "8930beed461f6de4d530e833eea028b920749d961e082e6514728fcad8e3881d",
+      "predicted_sha256": "b189695c0098b0e505a1aebca7b49f0e01e924d1a40c5194f29da2715bb29aaa",
+      "actual_sha256": "b46fed4f2b90378c01d822a775281edabd0a9ec608928580d565bf47c3273aa9"
+    },
+    {
+      "original_path": "org/apache/commons/text/TextStringBuilder$TextStringBuilderWriter.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/TextStringBuilder$TextStringBuilderWriter.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "2cfc1465e49e1f887653d510c2384f9b5eb2f17613d1ec0a80b20915a77078db",
+      "predicted_sha256": "9e733c227083d14d57c89178cea40eb78d788d2e13ac57767f12cb4f5f2b02b4",
+      "actual_sha256": "f97a82bfabc61d3f3587ddeed24f06e3e4bc3b170cfcbf3b68869c9e51cfe6ad"
+    },
+    {
+      "original_path": "org/apache/commons/text/TextStringBuilder.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/TextStringBuilder.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "9d6c194c5cae32f4eb27f693ef80614619f5811e2e50bb00e95c5e2499596072",
+      "predicted_sha256": "a2fd18e33776004c4780a2b0f88a95d1d85d1b1561ce0551c15033f82f41b5b6",
+      "actual_sha256": "03c14f813bf2afb2f5ee1aa99100b0f8fe8eabbf97184866d5bf09f67ccea6dc"
+    },
+    {
+      "original_path": "org/apache/commons/text/WordUtils.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/WordUtils.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "3824d2ea2ea235ab6eb8dc327ede2e5265a873b73aac77ace766155a3dfea5dc",
+      "predicted_sha256": "fd4cf90852555c5bde5685818bbae682a5aab348b4813f7d3f6164eede4fab38",
+      "actual_sha256": "f8c92107b8266c651bfcf18d35bf0a8d53c697037028837681ef1b02a39d9959"
+    },
+    {
+      "original_path": "org/apache/commons/text/diff/CommandVisitor.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/diff/CommandVisitor.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "a3e82aec36f02e9be45f802485bc29ac7e34de8b2b96b629a6f94041787cbd2f",
+      "predicted_sha256": "cb87583f191c9b822a488118fd4b1bea6760e44213996f5aadf68e0d5ecc5680",
+      "actual_sha256": "75061b8bcea23d43a9510fc49fa51df249eca33e90d8fbcbd9bd08af817e5472"
+    },
+    {
+      "original_path": "org/apache/commons/text/diff/DeleteCommand.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/diff/DeleteCommand.class",
+      "evidence_status": "transformed",
+      "original_sha256": "53ae819d0d181bd6125118cb0296a8f5ad935c92bba368de0ee3e4fad02b5f4a",
+      "predicted_sha256": "c773e5d67abc101ae9a95e8ea7d14def5a9256839352146b0612f19a6ff22b5b",
+      "actual_sha256": "c773e5d67abc101ae9a95e8ea7d14def5a9256839352146b0612f19a6ff22b5b"
+    },
+    {
+      "original_path": "org/apache/commons/text/diff/EditCommand.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/diff/EditCommand.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "dcfcce0cdd47c03a8ed7e9c48be1e4c27b7ad95d3b9672c1f531a32a95b88f94",
+      "predicted_sha256": "bccf3c6d7450e122753548e17d0448412c88d57fdb9f90530a88681ce5f41c37",
+      "actual_sha256": "01b2b61c8834eb8f2a90463dd25d871239b386e83b8bb49b7ed39aaba7880b8a"
+    },
+    {
+      "original_path": "org/apache/commons/text/diff/EditScript.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/diff/EditScript.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "e5b4d2b0b2fbd04cada24325d8c54ab2aa357e8a193be47d2df4e4742f87e9db",
+      "predicted_sha256": "14f5ec60ab34b82293b7e42287bc57412ec029a9bc105fae608d86e6a1a8fffb",
+      "actual_sha256": "2a0f8f176ef86a39f4a7ef176b4efc34deb53511a95cb8bf228881747b73e7b4"
+    },
+    {
+      "original_path": "org/apache/commons/text/diff/InsertCommand.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/diff/InsertCommand.class",
+      "evidence_status": "transformed",
+      "original_sha256": "cb87ea2858c9eb5a772fe9c01905d41532355543c437164bb297972d3790a4bc",
+      "predicted_sha256": "c46ee780ec4d5b8c3e37df820f28bedd7134a1d0b6cc6fa2458201b4f2ab0e9e",
+      "actual_sha256": "c46ee780ec4d5b8c3e37df820f28bedd7134a1d0b6cc6fa2458201b4f2ab0e9e"
+    },
+    {
+      "original_path": "org/apache/commons/text/diff/KeepCommand.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/diff/KeepCommand.class",
+      "evidence_status": "transformed",
+      "original_sha256": "ca7e94e804756bd129f5c5131aa518737623f50a494e23905c80cbef0b1ea0d4",
+      "predicted_sha256": "762929b3b3e5bdd7c371c681a11f7d6292939d876691e64c84b6bf0f77cc1a36",
+      "actual_sha256": "762929b3b3e5bdd7c371c681a11f7d6292939d876691e64c84b6bf0f77cc1a36"
+    },
+    {
+      "original_path": "org/apache/commons/text/diff/ReplacementsFinder.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/diff/ReplacementsFinder.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "7955433a4f46be7efc061c30f868a8497fd2c4b1345d2cf27d221013c0a8addb",
+      "predicted_sha256": "037614fd8df28fed3067cf2ea71e62119841f3a7a0ea9305bd32877df07de4e1",
+      "actual_sha256": "0b4a537eadb1acda5560b5c97b70621c89390846cd76c965113705b8b2348922"
+    },
+    {
+      "original_path": "org/apache/commons/text/diff/ReplacementsHandler.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/diff/ReplacementsHandler.class",
+      "evidence_status": "transformed",
+      "original_sha256": "83e785deaa75d808f4eff0e869a5049aff7327bedace772e6bfb0f2e28c6cec3",
+      "predicted_sha256": "4f1ba6f55479208ab9f34628c3cadcb4d7e54d76575daab128f7a5c070364679",
+      "actual_sha256": "4f1ba6f55479208ab9f34628c3cadcb4d7e54d76575daab128f7a5c070364679"
+    },
+    {
+      "original_path": "org/apache/commons/text/diff/StringsComparator$Snake.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/diff/StringsComparator$Snake.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "fb6d48ae78adab12795b4b2c6f2142d3d4931cbfaadcd2e136a36f049afb7729",
+      "predicted_sha256": "0abfd21031a293660925cdc2476dd9635c282b4b94750319bbac401f2fd9454e",
+      "actual_sha256": "70b2eda890e36beafc78af91a9891bdb57d98c0fbd6940d3b7d2f8ed95855fc9"
+    },
+    {
+      "original_path": "org/apache/commons/text/diff/StringsComparator.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/diff/StringsComparator.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "cea97820c57144f934700a2713288dfa2369e6dff42153dd31f4f08461271b2d",
+      "predicted_sha256": "b224e6d7e60015a12051fc1a96ca0d12a9f4fdd1255fc1325e247fa039efa23d",
+      "actual_sha256": "04ed81cc0645bfd494d774a63ca838e971fe5292f4eb5d98fff5be943b1f1384"
+    },
+    {
+      "original_path": "org/apache/commons/text/diff/package-info.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/diff/package-info.class",
+      "evidence_status": "unknown",
+      "original_sha256": "d95616f11d49bb736a807422b2b6419aee64ee1d04ae2df7807b9295dbef122a",
+      "predicted_sha256": "1f85216ba8d59198c58ad861ccafee57bcdc2bef08b199d61747bfd0a475f72d",
+      "actual_sha256": null
+    },
+    {
+      "original_path": "org/apache/commons/text/io/StringSubstitutorReader.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/io/StringSubstitutorReader.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "732aa652058998d7cc80515eba2f56a2a4b79c1f770514a7299716f98514a3d9",
+      "predicted_sha256": "a900181084cfbc8f07d1217db42c04740a18191a3eed15464924873370e4e9ec",
+      "actual_sha256": "c8eb2e3fcd8b8dabacee5b52ab01b4a5afffb03d2f8f7951635cf89b88a97e07"
+    },
+    {
+      "original_path": "org/apache/commons/text/io/package-info.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/io/package-info.class",
+      "evidence_status": "unknown",
+      "original_sha256": "93d0d082752f1e2dc0eabb63349384b02e1988c6763ca3d1b22e8250b4c80061",
+      "predicted_sha256": "7da99353d3487aac74c0b5d998e225e7de8fbdb9cbf163caaf7f5ab974dee1f5",
+      "actual_sha256": null
+    },
+    {
+      "original_path": "org/apache/commons/text/lookup/AbstractStringLookup.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/lookup/AbstractStringLookup.class",
+      "evidence_status": "transformed",
+      "original_sha256": "afcfc998821922eed045b96e04fad7450327c1f04e2098a58233db69624ca79f",
+      "predicted_sha256": "001f77a9d218c954f10d7300b37783e8368de0047d2aa465553999ec1576c701",
+      "actual_sha256": "001f77a9d218c954f10d7300b37783e8368de0047d2aa465553999ec1576c701"
+    },
+    {
+      "original_path": "org/apache/commons/text/lookup/BiFunctionStringLookup.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/lookup/BiFunctionStringLookup.class",
+      "evidence_status": "transformed",
+      "original_sha256": "85331a440e5f59eff2521dd73c89f1afe960695dd6db486c3f96cdb5bd07e0c5",
+      "predicted_sha256": "4e25b154e3d800e4e626e4172de3cf8a181bd78b88d18fc730d3b9eae7850af4",
+      "actual_sha256": "4e25b154e3d800e4e626e4172de3cf8a181bd78b88d18fc730d3b9eae7850af4"
+    },
+    {
+      "original_path": "org/apache/commons/text/lookup/BiStringLookup.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/lookup/BiStringLookup.class",
+      "evidence_status": "transformed",
+      "original_sha256": "745907fec0533bc0883a47dd5973305bc2c64b615113f4853bfc8924fbf516a4",
+      "predicted_sha256": "fee0687dc6fe2b4920571cd427d04d0c52d2862b3736c28a45444be340738df3",
+      "actual_sha256": "fee0687dc6fe2b4920571cd427d04d0c52d2862b3736c28a45444be340738df3"
+    },
+    {
+      "original_path": "org/apache/commons/text/lookup/ConstantStringLookup.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/lookup/ConstantStringLookup.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "5cfccf9a7a40301ae93e98c68f74bede03f522a8b6d3c631c7f8da8694633d10",
+      "predicted_sha256": "f950e1f8164efedb29b41878a2d14204adacc0430bca0c69ffaa291bf4c6b8fc",
+      "actual_sha256": "4c08d8675f6f801b2fc34b338535c7e616f79b3d6ca80fd5ca23ef1efdf3c0a9"
+    },
+    {
+      "original_path": "org/apache/commons/text/lookup/DateStringLookup.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/lookup/DateStringLookup.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "c142c946732493c52a83c9db5b3a893358c0da58c53efb6ebd68296b300f2099",
+      "predicted_sha256": "ffb4b15d40af38ab648b6cffab0afcee684996fca12159fbf35e2adbef271c9d",
+      "actual_sha256": "be737b94d44a981ed4049ff0804c27d0d2fd30d495fa5a6169abc36c0e74954e"
+    },
+    {
+      "original_path": "org/apache/commons/text/lookup/DefaultStringLookup.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/lookup/DefaultStringLookup.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "12be2f8b9c327a61467b5f77caf1447cc2026bc6232260292f78d8a6dfa3aeef",
+      "predicted_sha256": "6b67dd82f6dadadd72815b0380cc0b9fbc76088cc00a95f3d9300fd84ed88966",
+      "actual_sha256": "a9fa65e8e2a99d6b2153919fa02f25354033e398722f0336839bdfb1dbc6d781"
+    },
+    {
+      "original_path": "org/apache/commons/text/lookup/DnsStringLookup.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/lookup/DnsStringLookup.class",
+      "evidence_status": "transformed",
+      "original_sha256": "4aa7d8a3daf7aa6c7df1f21cc2fb8c0db665f3facdfa56d477961e1ae826c1f8",
+      "predicted_sha256": "b47775be83008e3ab3a2ae6678c69ecb55b8de02d664f38cf89a7a1cefe1178e",
+      "actual_sha256": "b47775be83008e3ab3a2ae6678c69ecb55b8de02d664f38cf89a7a1cefe1178e"
+    },
+    {
+      "original_path": "org/apache/commons/text/lookup/FileStringLookup.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/lookup/FileStringLookup.class",
+      "evidence_status": "transformed",
+      "original_sha256": "68ded8805071dc2f61320c647254170ebe8089212234c5aea120f175db7b9c50",
+      "predicted_sha256": "4dd4ab53f6ad0ccf773f031bf2e19c7a61546c49a7d29dc01752d4445d02fa10",
+      "actual_sha256": "4dd4ab53f6ad0ccf773f031bf2e19c7a61546c49a7d29dc01752d4445d02fa10"
+    },
+    {
+      "original_path": "org/apache/commons/text/lookup/FunctionStringLookup.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/lookup/FunctionStringLookup.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "b7f6ff2f63dabc51fd7875118fbe0d31850f7c6222afb9d830181c961c57cba6",
+      "predicted_sha256": "d0fe03b863d9640081a3cd28795a25eff24396e1f5afb7c2b52b701115b0789f",
+      "actual_sha256": "d04d5c8f603f84bde8a56e966747f399257cccb620731cf9c251513c9486c701"
+    },
+    {
+      "original_path": "org/apache/commons/text/lookup/IllegalArgumentExceptions.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/lookup/IllegalArgumentExceptions.class",
+      "evidence_status": "transformed",
+      "original_sha256": "4e867c42a8a68303469f731f58988769d1a857f4d91022792ff9b12dc1bad764",
+      "predicted_sha256": "2a45da0ca986f294e33e68d0c230d0eb2e0704073d016f06c14b65ec34a54046",
+      "actual_sha256": "2a45da0ca986f294e33e68d0c230d0eb2e0704073d016f06c14b65ec34a54046"
+    },
+    {
+      "original_path": "org/apache/commons/text/lookup/InetAddressKeys.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/lookup/InetAddressKeys.class",
+      "evidence_status": "transformed",
+      "original_sha256": "977e78fb6103f1e93c9d66b70abba8017b0d697fa0778a901eb615d35b8c2e83",
+      "predicted_sha256": "2bd03b4f4dea889d24c8e2d94f979f2c7fd5e060ed45d09245b1e63f4ddecf74",
+      "actual_sha256": "2bd03b4f4dea889d24c8e2d94f979f2c7fd5e060ed45d09245b1e63f4ddecf74"
+    },
+    {
+      "original_path": "org/apache/commons/text/lookup/InterpolatorStringLookup.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/lookup/InterpolatorStringLookup.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "35858aa19fdd34d05376a2e64da8cce4821053bf9489220ce5ba7cc6ff5d46e1",
+      "predicted_sha256": "911b554abd35bd631bd43ae7be82dc5ef1736031eaf8d5fac1ab3bb93e98c25a",
+      "actual_sha256": "9986755413a38d1c4a201fee0793dff9607fe89d13998fbfb6412a7b84791b6f"
+    },
+    {
+      "original_path": "org/apache/commons/text/lookup/JavaPlatformStringLookup.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/lookup/JavaPlatformStringLookup.class",
+      "evidence_status": "transformed",
+      "original_sha256": "7a106d2b4d54f9775be15b23a7209ff449ab4d48615ab752c447b9d023c28074",
+      "predicted_sha256": "f54408a672de0388e660195f3f2c45065704e997bcabd85ee76c81192ab88646",
+      "actual_sha256": "f54408a672de0388e660195f3f2c45065704e997bcabd85ee76c81192ab88646"
+    },
+    {
+      "original_path": "org/apache/commons/text/lookup/LocalHostStringLookup.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/lookup/LocalHostStringLookup.class",
+      "evidence_status": "transformed",
+      "original_sha256": "f0039f3f065cd55d4c72ca2cacbf302b75d63be33a57f0c3afad847c870cdb86",
+      "predicted_sha256": "34b0315540687b13bd6bc15773e79826805b6783b7f7d584eead0ed8c0541e37",
+      "actual_sha256": "34b0315540687b13bd6bc15773e79826805b6783b7f7d584eead0ed8c0541e37"
+    },
+    {
+      "original_path": "org/apache/commons/text/lookup/PropertiesStringLookup.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/lookup/PropertiesStringLookup.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "04f95c173f6845b6e8c6a5d56213f2d4f2437f9c84341105cdf2b31e054ec1c5",
+      "predicted_sha256": "10bf811f473b707bb9f5aff2d6c4268b4cc2786ad8c3b6fb041ee8656471e872",
+      "actual_sha256": "4df155df5f1d0da9e384846c13e42c38cd156364bd8227ac975ea7d53ce02142"
+    },
+    {
+      "original_path": "org/apache/commons/text/lookup/ResourceBundleStringLookup.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/lookup/ResourceBundleStringLookup.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "c2bf0167d9682fcd459f243e3377f7db765e37dfe7370624b68516afc7c5cd12",
+      "predicted_sha256": "c9afdec41efd090c3f9bba39e441c702f74791b8de353d38293917eb4fc12d1e",
+      "actual_sha256": "bdeeae579417f257a1c13aa9995a995b7e36cd3edd734d875ab5872f0beb1a62"
+    },
+    {
+      "original_path": "org/apache/commons/text/lookup/ScriptStringLookup.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/lookup/ScriptStringLookup.class",
+      "evidence_status": "transformed",
+      "original_sha256": "1da534f2c3a410720c3a596015fa58f6c216b2838d75db654ddcae7a3c3563ca",
+      "predicted_sha256": "8f3519647a1a6cbfa880e879e53728e0f6caad5a6ad54cd56b95255645d2e047",
+      "actual_sha256": "8f3519647a1a6cbfa880e879e53728e0f6caad5a6ad54cd56b95255645d2e047"
+    },
+    {
+      "original_path": "org/apache/commons/text/lookup/StringLookup.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/lookup/StringLookup.class",
+      "evidence_status": "transformed",
+      "original_sha256": "dc27931b12580fc7ae189a9173be84eea6db26d26276ed885f81d5994fd97737",
+      "predicted_sha256": "cb7678f4bb410e9673f1c23518c95be3ff8ac0ff6b1f8c1b93e25ef1daacaa98",
+      "actual_sha256": "cb7678f4bb410e9673f1c23518c95be3ff8ac0ff6b1f8c1b93e25ef1daacaa98"
+    },
+    {
+      "original_path": "org/apache/commons/text/lookup/StringLookupFactory$DefaultStringLookupsHolder.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/lookup/StringLookupFactory$DefaultStringLookupsHolder.class",
+      "evidence_status": "unknown",
+      "original_sha256": "ee1318e3e9c8af2bd4a60bd514be3aa0d61b1276a8ebf7194482e8ea6e94e6b6",
+      "predicted_sha256": "f0d048ab28aca3699aa5a7e7e72389d36552a9fe64231f0b4565d5f7fb018877",
+      "actual_sha256": null
+    },
+    {
+      "original_path": "org/apache/commons/text/lookup/StringLookupFactory.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/lookup/StringLookupFactory.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "970b1d102a00d3a0a057bc8d88b8b564cf85a4c8f1dc277f5cfd474dcf0e3a2e",
+      "predicted_sha256": "1847aef6c716be735467f2d6ade3da57b4214df275a517dba973736f2ef4c9c9",
+      "actual_sha256": "52d12f4514c18533282542d8f0072300170f644b2b8f8fbcc3ff3b6e7b4f54ce"
+    },
+    {
+      "original_path": "org/apache/commons/text/lookup/UrlDecoderStringLookup.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/lookup/UrlDecoderStringLookup.class",
+      "evidence_status": "transformed",
+      "original_sha256": "dc14edb3121ee9d6e4659647856bd227234f611a9be4dc26816dc5a34f9c970f",
+      "predicted_sha256": "2c07025fb65ef8c716ff18e3b5df35f09282ce8d6eb98babb8282ce9a108218d",
+      "actual_sha256": "2c07025fb65ef8c716ff18e3b5df35f09282ce8d6eb98babb8282ce9a108218d"
+    },
+    {
+      "original_path": "org/apache/commons/text/lookup/UrlEncoderStringLookup.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/lookup/UrlEncoderStringLookup.class",
+      "evidence_status": "transformed",
+      "original_sha256": "29b6c784cfd2e716d268da5bc3243dcfb8cc47b0a83654e38c6a07d284d4b10f",
+      "predicted_sha256": "4f9b44d6502374a3779885a88037af51fcfca94a1166c764372d1af74d980757",
+      "actual_sha256": "4f9b44d6502374a3779885a88037af51fcfca94a1166c764372d1af74d980757"
+    },
+    {
+      "original_path": "org/apache/commons/text/lookup/UrlStringLookup.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/lookup/UrlStringLookup.class",
+      "evidence_status": "transformed",
+      "original_sha256": "7d7d09d9920ddb37f256badc8f49e825188bc6d254cc3d31ebf1cf3b490de106",
+      "predicted_sha256": "1d3af5c1584823cf861a40c1749e981f73a59309f193a0a2d755329973fd197e",
+      "actual_sha256": "1d3af5c1584823cf861a40c1749e981f73a59309f193a0a2d755329973fd197e"
+    },
+    {
+      "original_path": "org/apache/commons/text/lookup/XmlStringLookup.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/lookup/XmlStringLookup.class",
+      "evidence_status": "transformed",
+      "original_sha256": "4701c769b0c7e1d7d88996cec9edf81eac8f7316d4e2a9971e81d45585de9ff7",
+      "predicted_sha256": "f0165af8e3520e38b5e111912950df3a8add27f5bcef5301d025be575282081b",
+      "actual_sha256": "f0165af8e3520e38b5e111912950df3a8add27f5bcef5301d025be575282081b"
+    },
+    {
+      "original_path": "org/apache/commons/text/lookup/package-info.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/lookup/package-info.class",
+      "evidence_status": "unknown",
+      "original_sha256": "ee069dcf82c05f3d59aeefd1ecaffb274e81d4d58df6252caba06b90c6c12e34",
+      "predicted_sha256": "6168b98316d6abf4154d42640e92a72cac05a3f3c671ac1b7a48494eb383bad7",
+      "actual_sha256": null
+    },
+    {
+      "original_path": "org/apache/commons/text/matcher/AbstractStringMatcher$AndStringMatcher.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/matcher/AbstractStringMatcher$AndStringMatcher.class",
+      "evidence_status": "transformed",
+      "original_sha256": "bfe1fb57a8c9ad6afb3a34876a7eef6185c5db90107c79a3d487893f0eba3fbc",
+      "predicted_sha256": "fd12ac476a645f1c785552f3c039c324cb3d86275ce39c0286ebd5c332e94d29",
+      "actual_sha256": "fd12ac476a645f1c785552f3c039c324cb3d86275ce39c0286ebd5c332e94d29"
+    },
+    {
+      "original_path": "org/apache/commons/text/matcher/AbstractStringMatcher$CharArrayMatcher.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/matcher/AbstractStringMatcher$CharArrayMatcher.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "41e87a466e35497cf6363cfde4f444ccb07c2ac012f7375ca2df0f364effb61b",
+      "predicted_sha256": "f0b3899ca5767fbbb2ae5e671bef8b034eb4c069a00a10a28446c6d783f3878d",
+      "actual_sha256": "1195cfe265d44d83034a829d2940c4ef789296656a52af22221fa66824adac04"
+    },
+    {
+      "original_path": "org/apache/commons/text/matcher/AbstractStringMatcher$CharMatcher.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/matcher/AbstractStringMatcher$CharMatcher.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "485629e2c861880465ca299eda5ad5f276fe301d594c2f86933c128b83fc1afc",
+      "predicted_sha256": "343675c8fe52a54d6789ee8c5752350869cebee239b53c7cbb2dac6bd244ec6d",
+      "actual_sha256": "739d0c8cf7c727a5a1eac381d963391c56834ce8d35f9e4cb1f76700c0fd5295"
+    },
+    {
+      "original_path": "org/apache/commons/text/matcher/AbstractStringMatcher$CharSetMatcher.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/matcher/AbstractStringMatcher$CharSetMatcher.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "1073372f3b9f4f12730ece130104fb9f0bb1ef489612800d68c5707b165ada19",
+      "predicted_sha256": "082109fa5b029a0b777a4ae62a532fb1bc75dd9262215b5b80a2e94d6ebfb2b8",
+      "actual_sha256": "79e5e45e5cd6783160f5ad76e95a168abb35451f70c8f4a7aaf12a3e45a15843"
+    },
+    {
+      "original_path": "org/apache/commons/text/matcher/AbstractStringMatcher$NoneMatcher.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/matcher/AbstractStringMatcher$NoneMatcher.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "4c6a6c09ff41904299eb63b8bb5c8263409025c1cf4065e59ef9ce0827eff7a1",
+      "predicted_sha256": "25484331a23eb91526738c339983b74e1e377dd5999a0a1ff9fb36c4057d197d",
+      "actual_sha256": "bc40fdfcb8c717d84097bee454dab79156eac8d1d2b3c35914c1b51ee3e9ba39"
+    },
+    {
+      "original_path": "org/apache/commons/text/matcher/AbstractStringMatcher$TrimMatcher.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/matcher/AbstractStringMatcher$TrimMatcher.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "77fcefb967f3c940afcf0a33f6e8dcfc98911de50741303a2a832a7a48104b94",
+      "predicted_sha256": "656872beb2f97dc3499225e887b198d5b9cbb52eb13c83ff7114028cd6bdbdfb",
+      "actual_sha256": "cc5f6b4740883661e519895dfa91d7ea97491e499c5cc0abf6340a6d1d92e545"
+    },
+    {
+      "original_path": "org/apache/commons/text/matcher/AbstractStringMatcher.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/matcher/AbstractStringMatcher.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "bc076fd85ca2c2a9b545ee78d35e3fa1c40bff18a346452fad7ae5b3a509608f",
+      "predicted_sha256": "2d8091af6c788418b0ba821b05a57ab84cb2c911beda8f1f821f78664f41ef93",
+      "actual_sha256": "e10c71abd236494d848a22c78f7e7e953a413cf7ce4a5c033239680141ddd86f"
+    },
+    {
+      "original_path": "org/apache/commons/text/matcher/StringMatcher.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/matcher/StringMatcher.class",
+      "evidence_status": "transformed",
+      "original_sha256": "a114d2810676b26fd1613a696d377b52cd23cd615e75538f015c51ce5e88c2c5",
+      "predicted_sha256": "b1561dd4b1322d647e3f9c4cc44de19edf7570f73ad089d7637c8219232afc10",
+      "actual_sha256": "b1561dd4b1322d647e3f9c4cc44de19edf7570f73ad089d7637c8219232afc10"
+    },
+    {
+      "original_path": "org/apache/commons/text/matcher/StringMatcherFactory.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/matcher/StringMatcherFactory.class",
+      "evidence_status": "transformed",
+      "original_sha256": "2bf3900744d23feb2092b18b0d0b5943f9bf336a1808d9f0c4457e37a6f3921e",
+      "predicted_sha256": "67ed71f1d098ab86c45d49e6102ae613e54bbf1fc8a9aef5e121b4fd0952006e",
+      "actual_sha256": "67ed71f1d098ab86c45d49e6102ae613e54bbf1fc8a9aef5e121b4fd0952006e"
+    },
+    {
+      "original_path": "org/apache/commons/text/matcher/package-info.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/matcher/package-info.class",
+      "evidence_status": "unknown",
+      "original_sha256": "6c1fbc684f7622162895e976d1b8f4f667660cba2c364a7c416d19ac17c469f3",
+      "predicted_sha256": "9b18ebad41eb464c1c5c9056b59a61898f7d323e29a092d053f4a173ac6533aa",
+      "actual_sha256": null
+    },
+    {
+      "original_path": "org/apache/commons/text/numbers/DoubleFormat$1.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/numbers/DoubleFormat$1.class",
+      "evidence_status": "unknown",
+      "original_sha256": "904a24ff280e875b74642a9c03404a623a8d0c25199c22f190b3aa4941a5b1dd",
+      "predicted_sha256": "2d61935a147a565685ce550442223bf97f0ff33099491c8879e8357148b280b3",
+      "actual_sha256": null
+    },
+    {
+      "original_path": "org/apache/commons/text/numbers/DoubleFormat$AbstractDoubleFormat.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/numbers/DoubleFormat$AbstractDoubleFormat.class",
+      "evidence_status": "unknown",
+      "original_sha256": "907eda566e31e8db2e6047657be7e901cb542c46cac7b2cadfb3bc141fd54bd3",
+      "predicted_sha256": "d2810fa30be3b3a9ee356a60c9b6d6df2c7d7d98c6fba50487953f20fcdede91",
+      "actual_sha256": null
+    },
+    {
+      "original_path": "org/apache/commons/text/numbers/DoubleFormat$Builder.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/numbers/DoubleFormat$Builder.class",
+      "evidence_status": "unknown",
+      "original_sha256": "6437f19db3e7ffac32a9768c9ef8ea2b72c49ce4afa3563bb184744497157e08",
+      "predicted_sha256": "579b426ff228eb76920cec59df4991f7a4677c7ecf2f660149d791b16f4391d6",
+      "actual_sha256": null
+    },
+    {
+      "original_path": "org/apache/commons/text/numbers/DoubleFormat$EngineeringDoubleFormat.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/numbers/DoubleFormat$EngineeringDoubleFormat.class",
+      "evidence_status": "unknown",
+      "original_sha256": "9ff4a4b102ac9110f6ab8dce54132d967c43159f27775bc4fce1209ea85ab380",
+      "predicted_sha256": "e4e2962abee74d43f0d016c222144a1156c742d173c79abb99e6e70564f46866",
+      "actual_sha256": null
+    },
+    {
+      "original_path": "org/apache/commons/text/numbers/DoubleFormat$MixedDoubleFormat.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/numbers/DoubleFormat$MixedDoubleFormat.class",
+      "evidence_status": "unknown",
+      "original_sha256": "0e56d97faee6860bddb991196be8a3d4045c49fe6f4543313e0ab4792ad70ec2",
+      "predicted_sha256": "848f8d0aaa2fb2d7d6e086ef0d71194a0efdd6d46cd088a7e606333b9e0ef1e1",
+      "actual_sha256": null
+    },
+    {
+      "original_path": "org/apache/commons/text/numbers/DoubleFormat$PlainDoubleFormat.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/numbers/DoubleFormat$PlainDoubleFormat.class",
+      "evidence_status": "unknown",
+      "original_sha256": "99c40055e2254e9a1b243a457ea0b907d2257e7ba9b0adf1eb6096527c6131b4",
+      "predicted_sha256": "a257f88e57dcd32403daf8653f1545100fd14bc5d99b6f4cc625100f612b8690",
+      "actual_sha256": null
+    },
+    {
+      "original_path": "org/apache/commons/text/numbers/DoubleFormat$ScientificDoubleFormat.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/numbers/DoubleFormat$ScientificDoubleFormat.class",
+      "evidence_status": "unknown",
+      "original_sha256": "7df4099cf7b1a781bee9adb84fda8c9d726ba3b8372bed0dc06acb6c77029140",
+      "predicted_sha256": "aa0199df68011bfc45207b4b8a1910b9d14a22c7521a517e585273bb4855618f",
+      "actual_sha256": null
+    },
+    {
+      "original_path": "org/apache/commons/text/numbers/DoubleFormat.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/numbers/DoubleFormat.class",
+      "evidence_status": "unknown",
+      "original_sha256": "77d1937cb5ce85aa9d0bed30c10a83eb523c71830b6b36db7a60934a7b46623b",
+      "predicted_sha256": "67a92897545c9bc3682a2c7a3953e5a49cf23a3088978add48c2ef6df6f935b7",
+      "actual_sha256": null
+    },
+    {
+      "original_path": "org/apache/commons/text/numbers/ParsedDecimal$FormatOptions.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/numbers/ParsedDecimal$FormatOptions.class",
+      "evidence_status": "unknown",
+      "original_sha256": "f9dc825d5731faee2f673d8440b438a8103aa49d7b2079cd7c23d10c014f795f",
+      "predicted_sha256": "496d94d87e4633d491f32549be00a2de0cb7361dcedd0247e7be4d5ff0ee1f02",
+      "actual_sha256": null
+    },
+    {
+      "original_path": "org/apache/commons/text/numbers/ParsedDecimal.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/numbers/ParsedDecimal.class",
+      "evidence_status": "unknown",
+      "original_sha256": "28f31ee9cf3232a41d60d610be225e6d8490e84719ed3eef6ce544b8784ce5bb",
+      "predicted_sha256": "95f973cc359ba11df346d79411115ad1ad3d0b0feb979e287ae7249d3820f822",
+      "actual_sha256": null
+    },
+    {
+      "original_path": "org/apache/commons/text/numbers/package-info.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/numbers/package-info.class",
+      "evidence_status": "unknown",
+      "original_sha256": "b8c90aae9e0ca30e36530558405f68cd472479d93a0899065da4be6c4ad268e0",
+      "predicted_sha256": "28cb36ec4cb8b8b48f0bb8fb92327785e21ca875dbaf01a561fcd3668ae87af8",
+      "actual_sha256": null
+    },
+    {
+      "original_path": "org/apache/commons/text/package-info.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/package-info.class",
+      "evidence_status": "unknown",
+      "original_sha256": "638a2d3ef8f391663df5f4de065221d06de1ff51df2fbaedb7a5260e5ee2ac3f",
+      "predicted_sha256": "77889f99bb8cedad890f1e65cc53cad330c8d8708d8c4d3fed39b958494773a7",
+      "actual_sha256": null
+    },
+    {
+      "original_path": "org/apache/commons/text/similarity/CosineDistance.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/similarity/CosineDistance.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "ad4c7d6e0dd61dc02ae5abcdc2808b3bcd844596308eda26fd77219860faf950",
+      "predicted_sha256": "fe9871a19aec0246d853c82f8491c2b8523650889cf700ee4138c98183b64a4b",
+      "actual_sha256": "cc2f5c0a41f29034802e01ba128df6544ae85b250cc2c8a10377b64d56262528"
+    },
+    {
+      "original_path": "org/apache/commons/text/similarity/CosineSimilarity.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/similarity/CosineSimilarity.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "dc318d36cf29fd20a31ee19002c90f159867897763009cc2e68fe6f461eb1f1d",
+      "predicted_sha256": "098b3ebbd3497714141a9417d7dfbf6e3ec26eb76aebf0795f85d9b43c5eaca5",
+      "actual_sha256": "ad8447ec29d579551ed1d02948cbbba31ea62425a9073da482475e467e4dd629"
+    },
+    {
+      "original_path": "org/apache/commons/text/similarity/Counter.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/similarity/Counter.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "fe363ccc282d9431ac4e346c4716f711abdaf745b0458b101e7e4989ca5f9ab8",
+      "predicted_sha256": "f2874195573bb8536fac504b2d5cab125700baff7b566c7f6777e6a984ab3902",
+      "actual_sha256": "bf4ecf8e8e202b8e0c960471c8d4a404c3b40acf3b904f06fe9fdee2c772856f"
+    },
+    {
+      "original_path": "org/apache/commons/text/similarity/EditDistance.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/similarity/EditDistance.class",
+      "evidence_status": "transformed",
+      "original_sha256": "3254d7150b9ce7240819f9a1bc4fc02fcbe870fb43a0f8bf3255208241e624d1",
+      "predicted_sha256": "0a8f296acbd2751e685df20a2eb0c854bb7b6cba60ea04361b583f613d74b230",
+      "actual_sha256": "0a8f296acbd2751e685df20a2eb0c854bb7b6cba60ea04361b583f613d74b230"
+    },
+    {
+      "original_path": "org/apache/commons/text/similarity/EditDistanceFrom.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/similarity/EditDistanceFrom.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "922fac4f25175fbaf8b3dd2774f9d135a69005a0fdeaf85ccfbf3f5590305203",
+      "predicted_sha256": "1d586303d17f37bbe4664fd4c1bfdea2517c260464d8f829cdec917eefaf6f91",
+      "actual_sha256": "54d4eb6e550728d95458b327d008b7504f7169f7b5d56f509b039970faccc9a7"
+    },
+    {
+      "original_path": "org/apache/commons/text/similarity/FuzzyScore.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/similarity/FuzzyScore.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "a15bc79a6062d2e41d63e57aedc0d28c5211ebf71399d65eb1c7fb5cc2319006",
+      "predicted_sha256": "9529364365bad6630a6c78f33028c15117d6f23e2e7e537be993afc828d638c5",
+      "actual_sha256": "7ef85516285c224a51b78be3c1809cdf2845cf00e4380f51e7cb4ed8b7985f4c"
+    },
+    {
+      "original_path": "org/apache/commons/text/similarity/HammingDistance.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/similarity/HammingDistance.class",
+      "evidence_status": "transformed",
+      "original_sha256": "3f3459b654a3b3814e1417cedafd06569dded560c28bb2073921dab418ee66d6",
+      "predicted_sha256": "a65d186688a2e4bceb83a70e25999e0f7be50e8414bc1cf142ab6c7d5c4d4d4a",
+      "actual_sha256": "a65d186688a2e4bceb83a70e25999e0f7be50e8414bc1cf142ab6c7d5c4d4d4a"
+    },
+    {
+      "original_path": "org/apache/commons/text/similarity/IntersectionResult.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/similarity/IntersectionResult.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "fba8084c45e68a3350e3282d02726ea84e0819dcbc8560e01c81df6b3c3584e8",
+      "predicted_sha256": "858fa01577bf8f1cde925cd57fb67c56553b0f8a7cfa9bc5c0788831a1c6e6d2",
+      "actual_sha256": "a5a35ee45c380d1ea7802a5c0b534619285225894028c9fbf2244dc863f53900"
+    },
+    {
+      "original_path": "org/apache/commons/text/similarity/IntersectionSimilarity$1.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/similarity/IntersectionSimilarity$1.class",
+      "evidence_status": "transformed",
+      "original_sha256": "116e442bd3d55c3d1975b0e5bf4548f1ada59d5c7ca4d62ee2e51737c00f7a0f",
+      "predicted_sha256": "fe98867a16b0984a53a192741e3b44264c8692b32e1ca9f9e9631812c062802b",
+      "actual_sha256": "fe98867a16b0984a53a192741e3b44264c8692b32e1ca9f9e9631812c062802b"
+    },
+    {
+      "original_path": "org/apache/commons/text/similarity/IntersectionSimilarity$BagCount.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/similarity/IntersectionSimilarity$BagCount.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "109ac5bfe2fd65ed85818a6ec36a4021d5ddfb60cba96cb6782142fcab87b3bc",
+      "predicted_sha256": "d660fa50283959e3670fa33da3d0a54b940089abb363aa135a71b47ff3091953",
+      "actual_sha256": "8aad0838911a332170271ce368e3205ad334a1297e71bae5d69ae8ee50bae3e7"
+    },
+    {
+      "original_path": "org/apache/commons/text/similarity/IntersectionSimilarity$TinyBag.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/similarity/IntersectionSimilarity$TinyBag.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "3e827354ce0415324e332b3d700b94d4ef95e6031a90a7d37ae6a76dc4cbad7f",
+      "predicted_sha256": "8397d419ccb64891ad742eaf5dbb3bdd42672f4126256a5c52636fd27022b796",
+      "actual_sha256": "1bbeb747aff48faf6491ac483288476eefacbcd489be7a1e3f0cbdccb82daf86"
+    },
+    {
+      "original_path": "org/apache/commons/text/similarity/IntersectionSimilarity.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/similarity/IntersectionSimilarity.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "4a4ba88653eadfe487fb6d6e7d147dadc2738145c166f2da3beb7131f25c1a91",
+      "predicted_sha256": "82c2e0010cbb11e32621ecd993ae844bd3e1fca98cc8fafb3945d4eb14cfbe09",
+      "actual_sha256": "bec6176e0cef3a25fcdf85af3674520f04e03ec6ccd397fc1533dc0469cd4166"
+    },
+    {
+      "original_path": "org/apache/commons/text/similarity/JaccardDistance.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/similarity/JaccardDistance.class",
+      "evidence_status": "transformed",
+      "original_sha256": "b984486fe11ba3055411092b025f481cb6af8f1e5937425d727284b53caa7a86",
+      "predicted_sha256": "daf7dcf77e55fe3fff0cfa40ad668e3e7f17db1fb7a90974e76f4a16e8937a1b",
+      "actual_sha256": "daf7dcf77e55fe3fff0cfa40ad668e3e7f17db1fb7a90974e76f4a16e8937a1b"
+    },
+    {
+      "original_path": "org/apache/commons/text/similarity/JaccardSimilarity.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/similarity/JaccardSimilarity.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "237148ac11786a3c6916059be5d43f20541582ccaaca018ac831cff423c8bc03",
+      "predicted_sha256": "ee583837e8d2efbfda052655727040944daddc6e3638ce7f5ebc795d343cd300",
+      "actual_sha256": "42d73080007bad510709e49d19abe511bad24f7ebdee1329f057765279732248"
+    },
+    {
+      "original_path": "org/apache/commons/text/similarity/JaroWinklerDistance.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/similarity/JaroWinklerDistance.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "a004210a0773d94a93256fcc71941157bb5452ba5d51b0c1c21779118030eb77",
+      "predicted_sha256": "4fbf2bac5aedc029974f6629e7f10a5268b3f99195717b14a7bdc60bdec9d9d1",
+      "actual_sha256": "bb479f74f5a4dc6d16f353e52ba1b25ff11399333238592850d3afd6e404afca"
+    },
+    {
+      "original_path": "org/apache/commons/text/similarity/JaroWinklerSimilarity.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/similarity/JaroWinklerSimilarity.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "0ca28dd8c51d7c2b48642e3d062614b2408a88dcdece9cd011465cb84a8f9fbb",
+      "predicted_sha256": "e9786294fbc7823eb1eb8791351d09983a1a8da771b952050a539d37537370bc",
+      "actual_sha256": "7ec64675b286c7a1ec42b873d3b8dd4597970943921b2fcde5a8cb1ca818b761"
+    },
+    {
+      "original_path": "org/apache/commons/text/similarity/LevenshteinDetailedDistance.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/similarity/LevenshteinDetailedDistance.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "31cc1bc801de39f264afbf3b380da7191e8a66e4c6af9e4c65ed4012d9689029",
+      "predicted_sha256": "74200f8dd949c9c9702c0ca963cf8ce0cc10c58333bdf6c2cc073567098c6d63",
+      "actual_sha256": "a0aceb7b9ec92a83a27f62b233d920e41fdb676f30c4b999060cf7eb0d222281"
+    },
+    {
+      "original_path": "org/apache/commons/text/similarity/LevenshteinDistance.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/similarity/LevenshteinDistance.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "51fb63f63900573046abefea0a07b9009a9443830f719f7abcc37203587ffbdc",
+      "predicted_sha256": "7c7fead4751a652bacabbaf201039db2243511209dc61cada6b93e7a6a096b9a",
+      "actual_sha256": "523d063a2468eb726446d190822868986bf1ae69a98451c3a91fa121f77f0b42"
+    },
+    {
+      "original_path": "org/apache/commons/text/similarity/LevenshteinResults.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/similarity/LevenshteinResults.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "1fb9964e60645fa255508c40dcfcd236da052d2275d23677d53c776d331649fb",
+      "predicted_sha256": "998f2f48f6bf059096ce81777ab50e37ff2836eb25cd45c3be438e75aa10b82a",
+      "actual_sha256": "d10718c8afcfa257bc37740d7322d9aa5da1bd809d86d44f651aeaf24640cc5a"
+    },
+    {
+      "original_path": "org/apache/commons/text/similarity/LongestCommonSubsequence.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/similarity/LongestCommonSubsequence.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "2b105cf991f52a68f451f27bd83a16e84b2e87be4266001c0dcb005c767a3008",
+      "predicted_sha256": "d6330384921595697e4202d6e456ffd5545021db9106f864aee3cd8a483d31fc",
+      "actual_sha256": "fb2e44f01f8869f6cd3866001eabd567b7e6a2378423041b74d7a6d2a6eaa38c"
+    },
+    {
+      "original_path": "org/apache/commons/text/similarity/LongestCommonSubsequenceDistance.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/similarity/LongestCommonSubsequenceDistance.class",
+      "evidence_status": "transformed",
+      "original_sha256": "e850fd4fd318a216fa9ca419daa56cfc7c6d564a32b5015c967921e69373071b",
+      "predicted_sha256": "167924ba19c40b55120e26a531f30e761a135d87568ece91eb85a6a705a89440",
+      "actual_sha256": "167924ba19c40b55120e26a531f30e761a135d87568ece91eb85a6a705a89440"
+    },
+    {
+      "original_path": "org/apache/commons/text/similarity/RegexTokenizer.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/similarity/RegexTokenizer.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "ae9cbba03421b4744c96c50b2c3266411e3501939654a7be44ca6f3e5e8e6692",
+      "predicted_sha256": "36a61b4c98881eb3e538b6c7a7d7a491ffbd1ca6397bce932041dadd66da2fda",
+      "actual_sha256": "d550c41aba45068ee2220cf77dff3f27fb7fcbeaba91c6cd1d24b0ee8b5dfabe"
+    },
+    {
+      "original_path": "org/apache/commons/text/similarity/SimilarityScore.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/similarity/SimilarityScore.class",
+      "evidence_status": "transformed",
+      "original_sha256": "c57ff71abcb49cc9f1ab77e94e4315b9532d700386af274f4192183bc6d908f9",
+      "predicted_sha256": "90b526a0459e61022025ef2c6a4d9a3f3e146fb1278ad1903eed9da7b8e2786d",
+      "actual_sha256": "90b526a0459e61022025ef2c6a4d9a3f3e146fb1278ad1903eed9da7b8e2786d"
+    },
+    {
+      "original_path": "org/apache/commons/text/similarity/SimilarityScoreFrom.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/similarity/SimilarityScoreFrom.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "72f8c52508de312a9bdf8253ad8d7f47dc0b1ac5d76526831b33bf231fd0c666",
+      "predicted_sha256": "a3c2e384a6a083e4f61e06867638db09ceaccdfa2f865d11d65f3053d8608cbc",
+      "actual_sha256": "13b9d8f47a7f7b7771c570ceb83f3219f4c65e4ff0af446d3eacfb78c817ea50"
+    },
+    {
+      "original_path": "org/apache/commons/text/similarity/Tokenizer.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/similarity/Tokenizer.class",
+      "evidence_status": "transformed",
+      "original_sha256": "8edc17ad0ac3d9cbae640b5fc30be02c4ddc1eb4d67b09dcf7992b1492caaa36",
+      "predicted_sha256": "9b1a78d19d36d23c20515f91ee6c0f540f27b1ce67fd13fcb674969224377cc5",
+      "actual_sha256": "9b1a78d19d36d23c20515f91ee6c0f540f27b1ce67fd13fcb674969224377cc5"
+    },
+    {
+      "original_path": "org/apache/commons/text/similarity/package-info.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/similarity/package-info.class",
+      "evidence_status": "unknown",
+      "original_sha256": "0f9f7f2d88b85f772b93245fee72925238dd0808835efd03c58d01d8efd6f9e0",
+      "predicted_sha256": "331b500e4381b0bdb7f6c53bb6f8a5d8021ddb11b0df1957b40a66ccd9211e86",
+      "actual_sha256": null
+    },
+    {
+      "original_path": "org/apache/commons/text/translate/AggregateTranslator.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/translate/AggregateTranslator.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "399fe1ffca1977f7645efdee5c1736c34d4d70e9efca01f5952e959bafa32676",
+      "predicted_sha256": "25ee9c4093bf2a773d42adec42565341da3bf483fee13de81fb12d96c480ecd6",
+      "actual_sha256": "f8f841247e6265c0c23884eadc9c0e60c54710de3a9c9db771d61df5bdcb1e49"
+    },
+    {
+      "original_path": "org/apache/commons/text/translate/CharSequenceTranslator.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/translate/CharSequenceTranslator.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "6a9a90c349f227c42ca49e0a509e1e6cc568aa1dcc01b46cbfa3d1b7b223df99",
+      "predicted_sha256": "17cb410c0f111ad8612edbb67ed6fe65cd8c8d8a927c98ce801b7c725bcdea1a",
+      "actual_sha256": "4807af55b5dfcc663572b25bcec36be96ae7ac2963568e1ca3b160371ea1d700"
+    },
+    {
+      "original_path": "org/apache/commons/text/translate/CodePointTranslator.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/translate/CodePointTranslator.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "cbd4c4cabb9ca8213da20538fbdd1b782185cde0753e9a4a5ffff7c83a47be23",
+      "predicted_sha256": "65ba3f5c04aba38f9bcfcf50cb59f38382886434f8c850d34231093f73f31261",
+      "actual_sha256": "8d7f6cd16e32b014987bfc38fcc406e2148492584b622b9811a953a34d5bc981"
+    },
+    {
+      "original_path": "org/apache/commons/text/translate/CsvTranslators$CsvEscaper.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/translate/CsvTranslators$CsvEscaper.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "a56b74a56e7fdd97e063734c82fff5e2d6831a97b159ae41783f06b4c568d3a9",
+      "predicted_sha256": "36520b8257c3cd56bbda4b11fd5bbc044ef6f98165ecfc23aac759a00f1c1852",
+      "actual_sha256": "94772e6edacc6af8f97cb49203a3ee18a2470f91657eeeb67ba87ea438dba009"
+    },
+    {
+      "original_path": "org/apache/commons/text/translate/CsvTranslators$CsvUnescaper.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/translate/CsvTranslators$CsvUnescaper.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "e60b6a6beea373f0f8ac60fdab75bba89310540b4efcfaaa842c9a08cafd37cb",
+      "predicted_sha256": "d7930964d61b6214882f1536f3937c20788e7922f9cfcd698f6f07292475c237",
+      "actual_sha256": "932f8ae441c8ba6f908dc5e94450242428d2b68d03389303d52b9b9aadea45ac"
+    },
+    {
+      "original_path": "org/apache/commons/text/translate/CsvTranslators.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/translate/CsvTranslators.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "30bc684641544fe6e9e97bcf7d3cf34485463bfd3ddc057a0bc67b64e5f0aa05",
+      "predicted_sha256": "7d75164fc437506afee8dceb702d35af1d1b9edcc483a5e7d25b57a57e77ec9b",
+      "actual_sha256": "8584f8bc859eee9795dbb49687a3fb296e7a9610524f07d3480d05727b22889e"
+    },
+    {
+      "original_path": "org/apache/commons/text/translate/EntityArrays.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/translate/EntityArrays.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "f60f1cb4fe99c2fbd9cf677cd0340770a9cfc6e01db06aec2cc7163af4951683",
+      "predicted_sha256": "d94b83c7beb1f20c6c9bb4f95a564937187134689b09a85aec12e7bb700f7f9a",
+      "actual_sha256": "e6b4e1080a51276d0b09a4b73c7e4577b6d1f2943ca0327e7bc27ad2b06bb351"
+    },
+    {
+      "original_path": "org/apache/commons/text/translate/JavaUnicodeEscaper.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/translate/JavaUnicodeEscaper.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "e693f9d821f995cba6e4f7ab8be1a7c870467565ef9e3563cc25af3dcdad8679",
+      "predicted_sha256": "6bd998081e59e779c6c00a3bfd6b9300b2fad7ba32322605020aea9009eca011",
+      "actual_sha256": "b0ea4f67811b2baa4f1a211c3075c66d4282b4d3b8a648ee9f3a0032eeed1e79"
+    },
+    {
+      "original_path": "org/apache/commons/text/translate/LookupTranslator.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/translate/LookupTranslator.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "7d48b2c811792f29f7ec577934b295ef69e881b10add0df9b4b3f4d33f840135",
+      "predicted_sha256": "4493dc776f19470660940f601d0a042fcf18c6c9babe0d3bad8b0fdc8a8bed6b",
+      "actual_sha256": "3e3cacf4ff7e0191ed58ec5e1cf57711ed48b7acdec1c3fea95f8d152a58a7dc"
+    },
+    {
+      "original_path": "org/apache/commons/text/translate/NumericEntityEscaper.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/translate/NumericEntityEscaper.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "f16400501644c81cf89ec070613629af9ab4d26272def0e64ec2dfc20610e021",
+      "predicted_sha256": "90b9f21e0622ce49708d77942a6e17a9954999e95691d10394dbd3fddd315401",
+      "actual_sha256": "c0e7ec97a146b254168d294f203f2cca5ebc2e2edfb9a7278232adf2de78a4e7"
+    },
+    {
+      "original_path": "org/apache/commons/text/translate/NumericEntityUnescaper$OPTION.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/translate/NumericEntityUnescaper$OPTION.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "9d6e02f33c1be98f43ed7ef0587dfbe912eaa5ac401712ccccf6c57c0ae194af",
+      "predicted_sha256": "796c62587cb3a2491eec7244e4156c5546ff3820966b555182fb3fce5929f7b1",
+      "actual_sha256": "4eee9a84df32018da465dad150d29e2a7fe84db78517e349b2420ff79723571b"
+    },
+    {
+      "original_path": "org/apache/commons/text/translate/NumericEntityUnescaper.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/translate/NumericEntityUnescaper.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "c4f53d0ed0d0999c945996fd55313ce2c14ca13b99cbe5a5ef64da43a7fab6b4",
+      "predicted_sha256": "0a07624fab44b55d78d8a12d63f3bd80b9692736a46f2d95de8ebda4dfc9b6ed",
+      "actual_sha256": "71da09f98fc9ed7c53e96b5496d75e718646f5c4c80ddf1431b0a6f20cdccf5f"
+    },
+    {
+      "original_path": "org/apache/commons/text/translate/OctalUnescaper.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/translate/OctalUnescaper.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "9fc4ab4f47eaa6a300482e9894fac49bac574ce9492bafb7eb3c537d351abfe7",
+      "predicted_sha256": "c85b1ef9d2a78d78d30ae7f032fbe4f73c2dccb21651182c11dcdd94745b1ffa",
+      "actual_sha256": "716b89561f6b2cbdaa15a682cbac79ed5cbb55e4b1335f8fad2939b2be76ceb1"
+    },
+    {
+      "original_path": "org/apache/commons/text/translate/SinglePassTranslator.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/translate/SinglePassTranslator.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "f503a51060448c15bfcc39ca174e4a16ceadbe138e2f99d0036c1801646a38c8",
+      "predicted_sha256": "998c199582d8934a76d6d22eec5e3b34c805ba207c668c6f4f22d4edeb8a6363",
+      "actual_sha256": "28aa2497b84e3708b0bb7d92862b60f1fb722fdbe304bd7027625e99935f0e2c"
+    },
+    {
+      "original_path": "org/apache/commons/text/translate/UnicodeEscaper.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/translate/UnicodeEscaper.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "04f5c89ee5ddd4cc4ebd2eeb4f43543d24978e0762f651ad9ab357c2ca1ebb3b",
+      "predicted_sha256": "2d15fcded5f767bc1719158b636c714c470c1fb773d660dc3e71e305d5b4f960",
+      "actual_sha256": "100bfa5f2aca45f0e70b2c917161a4e590a24a7764df7e604e651c9a194f9b8f"
+    },
+    {
+      "original_path": "org/apache/commons/text/translate/UnicodeUnescaper.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/translate/UnicodeUnescaper.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "0f3e5f988e4d1ec22deef9614ff212a46ea927c7e459e92d614f8ba70e63b3d1",
+      "predicted_sha256": "16f7265c7d47386a43d97f547987d1e48b9696b2f864b20d34a43f2621aea42a",
+      "actual_sha256": "5211e6e9dba3b6e59b53f72da1a7c1a3c4745a0b654eb897e068cc9d1f1be304"
+    },
+    {
+      "original_path": "org/apache/commons/text/translate/UnicodeUnpairedSurrogateRemover.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/translate/UnicodeUnpairedSurrogateRemover.class",
+      "evidence_status": "ambiguous",
+      "original_sha256": "abcf6f7b98bd2a2624dc8e202d2be63e44b8a60754d3499fd7ae0368e4e8aaea",
+      "predicted_sha256": "3fb20fbef8ad3c96b0d19a036366c2df4c9a41676fb4e532ae365dec82277a7d",
+      "actual_sha256": "39121f068b514a9b09257cb62ca776fe9fc668880da08fa7586b6fcd9046b51d"
+    },
+    {
+      "original_path": "org/apache/commons/text/translate/package-info.class",
+      "predicted_output_path": "com/acme/shaded/commons/text/translate/package-info.class",
+      "evidence_status": "unknown",
+      "original_sha256": "b41087dd766f43e0f08c70acd79c071c04a4783e7513e5e30159760ce58c6589",
+      "predicted_sha256": "ac92145f5fcbcd1e06e9e5a10ba2e9239ded20adefc62fbeedb952f4ec758535",
+      "actual_sha256": null
+    }
+  ],
+  "coverage": {
+    "exact": 0,
+    "transformed": 37,
+    "ambiguous": 98,
+    "unknown": 19,
+    "total": 154
+  }
+}
